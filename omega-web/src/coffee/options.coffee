@@ -3,7 +3,7 @@ $script 'lib/angular-loader/angular-loader.min.js',
   'angular-loader'
 $script 'lib/jquery/jquery.min.js', 'jquery'
 $script 'js/omega_pac.min.js', 'omega-pac'
-$script 'lib/FileSaver/FileSaver.min.js', 'filesaver'
+$script 'lib/file-saver/FileSaver.min.js', 'filesaver'
 $script 'lib/blob/Blob.js', 'blob'
 $script 'lib/spin.js/spin.js', ->
   $script 'lib/ladda/ladda.min.js', ->
@@ -26,7 +26,7 @@ $script.ready ['angular-loader'], ->
     'lib/ngprogress/ngProgress.min.js'
     'lib/angular-ui-sortable/sortable.min.js'
     'lib/angular-ui-utils/validate.min.js'
-    'lib/jsondiffpatch/jsondiffpatch.min.js'
+    'lib/jsondiffpatch/jsondiffpatch.umd.slim.js'
     'lib/angular-spectrum-colorpicker/angular-spectrum-colorpicker.min.js'
   ], 'omega-deps')
 $script.ready ['jquery'], ->
